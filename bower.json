@@ -1,0 +1,27 @@
+{
+  "name": "uRoomer",
+  "version": "1.0.0",
+  "authors": [
+    "Tsveykov M. <maxtsvetapple@gmail.com>"
+  ],
+  "description": "uRoomer main page",
+  "main": "build/index.html",
+  "keywords": [
+    "sass",
+    "jade",
+    "gulp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "^3.3.6"
+  }
+}
