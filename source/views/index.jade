@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 html(lang="en")
   head
-    title DevTips Starter Kit
+    title uRoomer
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="shortcut icon", href="./assets/img/favicons/favicon.ico")
@@ -16,14 +16,23 @@ html(lang="en")
             span.icon-bar
             span.icon-bar
             span.icon-bar
-          a(class="navbar-brand", href="#") Project name
+          a(class="navbar-brand", href="#"): img(src="assets/img/logo.png", alt="...")
 
         .navbar-collapse.collapse(id="navbar")      
           ul.nav.navbar-nav
-            li.active: a(href="#") Create
+            li: a(href="#") Create
             li: a(href="#") Design
             li: a(href="#") Render
             li: a(href="#") Contact
+            li
+              a(class="language", href="#")
+                img(src="assets/img/ru_flag.png", alt="...")
+                span Ru
+              span |  
+              a(class="language", href="#")
+                img(src="assets/img/eng_flag.png", alt="...")
+                span Eng
+
     .container
       #photoCarousel.carousel.slide(data-ride="carousel")
         .carousel-inner(role="listbox")
@@ -32,9 +41,7 @@ html(lang="en")
           .item
             img(src="http://placehold.it/960x400", title="slide2")
           .item
-            img(src="http://placehold.it/960x400", title="slide3")
-          a(class="carousel-control left", href="#photoCarousel", data-slide="prev") &lsaquo;
-          a(class="carousel-control right", href="#photoCarousel", data-slide="next") &rsaquo;
+            img(src="http://placehold.it/960x400", title="slide3")          
 
       p.heading Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
@@ -111,6 +118,7 @@ html(lang="en")
         hr
         .row
           p 2016 &copy; All right reserved
+
 
 
     script(src="./vendors/jquery/dist/jquery.min.js")
