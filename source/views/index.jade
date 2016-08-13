@@ -8,8 +8,8 @@ html(lang="en")
     link(rel="stylesheet", href="vendors/bootstrap/dist/css/bootstrap.min.css")
     link(rel="stylesheet", href="assets/css/main.css")
   body
-    nav.navbar.navbar-inverse.navbar-fixed-top
-      .container
+    .container
+      nav.navbar.navbar-inverse.navbar-fixed-top      
         .navbar-header
           button.navbar-toggle.collapsed(data-toggle="collapse", data-target="#navbar", aria-expanded="false", aria-controls="navbar")
             span.sr-only Toggle navigation
@@ -33,91 +33,87 @@ html(lang="en")
                 img(src="assets/img/eng_flag.png", alt="...")
                 span Eng
 
-    .container
+    
       #photoCarousel.carousel.slide(data-ride="carousel")
         .carousel-inner(role="listbox")
           .item.active
-            img(src="http://placehold.it/960x400", title="slide1")
+            img(src="assets/img/slide.jpg", title="slide1")
           .item
-            img(src="http://placehold.it/960x400", title="slide2")
+            img(src="assets/img/slide.jpg", title="slide2")
           .item
-            img(src="http://placehold.it/960x400", title="slide3")          
+            img(src="assets/img/slide.jpg", title="slide3")          
 
-      p.heading Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        .slider-title: p.heading Lorem ipsum dolor sit amet.
 
-      .main-items
-        .row
-          .col-sm-6.col-md-4
-            .thumbnail
-              img(src="http://placehold.it/300x200", alt="...")
-              .caption
-                h3 Create
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                p: a(class="btn btn-primary", href="#") Learn more
+      .information.row
+        p uRoomer can easily import almost every your 3D model and use it as uRoomer can easily import almost every your 3D model and use it as s uRoomer can easily import almost every your 3D model and use it as s uRoomer can easily import almost every your 3D model and use it as s uRoomer can.  
 
-          .col-sm-6.col-md-4
-            .thumbnail
-              img(src="http://placehold.it/300x200", alt="...")
-              .caption
-                h3 Create
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                p: a(class="btn btn-primary", href="#") Learn more
+      .main-items.row
+        
+          .col-xs-12.col-md-4
+            img(src="assets/img/create.png", alt="...")
+            .item-header
+              span: img(src="assets/img/uRoomer_create.png", alt="...")
+              span Create
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            hr
+            a(class="learn-more", href="#") Learn more >
 
-          .col-sm-6.col-md-4
-            .thumbnail
-              img(src="http://placehold.it/300x200", alt="...")
-              .caption
-                h3 Create
-                p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                p: a(class="btn btn-primary", href="#") Learn more
+          .col-xs-12.col-md-4
+            img(src="assets/img/design.png", alt="...")
+            .item-header
+              span: img(src="assets/img/uRoomer_design.png", alt="...")
+              span Design
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            hr
+            a(class="learn-more", href="#") Learn more >
 
-      .news
-        .row
+          .col-xs-12.col-md-4
+            img(src="assets/img/render.png", alt="...")
+            .item-header
+              span: img(src="assets/img/uRoomer_render.png", alt="...")
+              span Render
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            hr
+            a(class="learn-more", href="#") Learn more >
+
+      .news.row
+        
           .col-sm-12.col-md-6
             .container-fluid
               .row
                 col-sm-12.col-md-6
-                  img(src="http://placehold.it/250x150", alt="...")
+                  img(src="assets/img/news_1.png", alt="...")
                 col-sm-12.col-md-6
-                  p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  p You can watch 3D panorams now.
+                  a(class="learn-more", href="#") Learn more
+
 
           .col-sm-12.col-md-6
             .container-fluid
               .row
                 col-sm-12.col-md-6
-                  img(src="http://placehold.it/250x150", alt="...")
+                  img(src="assets/img/news_1.png", alt="...")
                 col-sm-12.col-md-6
                   p Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  a(class="learn-more", href="#") Learn more >
 
       footer
-        .row
-          .col-xs-6.col-md-2.col-md-offset-1
-            ul 
-              li: a(href="#") Home
-          .col-xs-6.col-md-2
-            ul
-              li: a(href="#") Create
-              li: a(href="#") Overview
-              li: a(href="#") Details
-              li: a(href="#") Gallery
-          .col-xs-6.col-md-2
-            ul
-              li: a(href="#") Design
-              li: a(href="#") Overview
-              li: a(href="#") Details
-              li: a(href="#") Gallery
-          .col-xs-6.col-md-2
-            ul
-              li: a(href="#") Render
-              li: a(href="#") Overview
-              li: a(href="#") Details
-              li: a(href="#") Gallery
-          .col-xs-6.col-md-2
-            ul
-              li: a(href="#") Contact
-        hr
-        .row
-          p 2016 &copy; All right reserved
+        .container-fluid
+          .row.menu
+            .col-xs-6.col-md-2.col-md-offset-1
+              a(href="#") Home
+            .col-xs-6.col-md-2
+              a(href="#") Create
+            .col-xs-6.col-md-2
+              a(href="#") Design             
+            .col-xs-6.col-md-2
+              a(href="#") Render            
+            .col-xs-6.col-md-2
+              a(href="#") Contact
+          hr
+          .row.copyright
+            .col-xs-12: p 2016 &copy; All right reserved
 
 
 

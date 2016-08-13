@@ -32,3 +32,5 @@ node_modules
 
 ### Bower ###
 source/vendors
+
+build
