@@ -1,17 +1,19 @@
-.container
-  margin: 0 auto
-  padding: 0  
-  background-color: white
-  border: 1px solid black
+@media (min-width: 1024px) 
+  .container
+    margin: 0 auto
+    padding: 0
+    width: 1038px  
+    background-color: white
+    border: 1px solid black
 
   .information
     padding: 50px 120px
-    margin: 0
+    margin: 0px
 
   .main-items
     text-align: center
     padding: 40px 0 70px
-    margin: 0
+    margin: 0px
     background-color: #f4f4f4
 
     p
@@ -43,9 +45,10 @@
 
   footer
     text-align: center
-    margin: 60px auto
+    margin: 50px auto 30px
 
     .menu
+      text-align: center
       margin-bottom: 35px
     
     hr
@@ -53,8 +56,42 @@
       margin: 10px auto
 
     .copyright
-      margin: 10px 0
-      color: #555555  
+      margin: 10px auto
+      color: #555555
+@media (max-width: 1023px)
+  .information
+    padding: 30px
+  .main-items
+    text-align: center 
+    .col-xs-12      
+      margin: 30px auto 
+      
+      p
+        padding: 10px 20%
+      hr    
+        display: none  
+      
+  .item-header
+    margin: 20px auto
+    font-size: 22px
+    font-weight: 700      
+
+    img
+      height: 30px
+      width: 30px
+      margin-right: 10px
+       
+  .news    
+    margin: 20px 10px
+    .media
+      padding: 15px 0
+  .menu
+    text-align: center
+  .copyright
+    padding: 20px 0px
+    text-align: center         
+    
+
 
 
 

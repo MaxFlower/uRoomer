@@ -1,21 +1,44 @@
-.carousel-inner
-  background-color: $silver
-  height: 523px
-  width: 1036px
-.slider-title
-  position: absolute
-  left: 0
-  bottom: 0
-  height: 96px
-  background-color: rgba(255,255,255,0.4)
-  width: 100%
-  padding: 0 15px
-  text-align: center
+@media (min-width: 1024px)
+  .carousel.slide    
+    overflow: hidden
 
-  p
-    font-size: 32px
-    font-weight: 700
-    line-height: 96px
-    color: black
+    .carousel-inner
+      background-color: $silver
+      height: 523px
+      width: 100%
+    .slider-title
+      position: absolute
+      left: 0
+      bottom: 0
+      height: 96px
+      background-color: rgba(255,255,255,0.4)
+      width: 100%
+      padding: 0
+      text-align: center
+
+      p
+        font-size: 32px
+        font-weight: 700
+        line-height: 96px
+        color: black
+@media (max-width: 1023px)
+  .carousel.slide
+    width: 100%   
+
+    .slider-title
+      position: absolute
+      left: 0
+      bottom: 0
+      height: 36px
+      background-color: rgba(255,255,255,0.4)
+      width: 100%
+      padding: 0
+      text-align: center
+
+      p
+        font-size: 14px
+        font-weight: 700
+        line-height: 36px
+        color: black        
 
 
