@@ -280,7 +280,6 @@ a {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
-  color: #0066ff;
   text-decoration: none;
   outline: 0;
 }
@@ -411,8 +410,7 @@ input[type="button"]:focus {
   }
 
   nav .navbar-nav li a {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
     color: white;
     padding: 32px 55px;
   }
@@ -484,6 +482,10 @@ input[type="button"]:focus {
     background-color: #f4f4f4;
   }
 
+  .main-items a {
+    color: #0066ff;
+  }
+
   .main-items p {
     text-align: left;
     color: #555555;
@@ -521,7 +523,7 @@ input[type="button"]:focus {
   footer {
     text-align: center;
     margin: 50px auto 30px;
-    font-weight: 700;
+    font-weight: 400;
     color: #1a1a1a;
   }
 
