@@ -1,7 +1,7 @@
 {
-  "name": "dev-tips-starter-kit",
+  "name": "u-roomer",
   "version": "1.0.0",
-  "description": "Simple structure for a simple start to a simple site.",
+  "description": "Our render project site.",
   "main": "build/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
     "jade",
     "gulp"
   ],
-  "author": "Maikel Rivero Dorta <mriverodorta@gmail.com>",
+  "author": "Max Tsvetkov <maxtsvetapple@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.7.11",
